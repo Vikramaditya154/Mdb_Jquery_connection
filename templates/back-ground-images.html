@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <!--  <style>
+        body{
+            background-image: url('{% static "images/hitman.jpeg" %}');
+        }
+    </style> -->
+</head>
+<body style="background-image: url('{%  static "images/msd3.jpg"  %}');">
+        <h1>conecting bg-images to jquery</h1>
+        <!--<h1 style="background-image: url('{% static "images/msd.jpg" %}');">Back Ground U have One Image</h1>
+       
+       
+    <h1 style="background-image: url('{% static "images/mi.jpg" %}');">Back Ground U have One Image</h1>
+        <h2>connect to static img</h2>  -->
+        
+
+        <script src="{% static 'js/jquery.js' %}"></script>
+        <script src="{% static 'js/popper.js' %}"></script>
+        <script src="{% static 'js/bootstrap.js' %}"></script>
+        <script src="{% static 'js/mdb.js' %}"></script>
+    
+</body>
+</html>
